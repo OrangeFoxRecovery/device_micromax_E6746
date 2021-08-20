@@ -68,10 +68,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     	export OF_OTA_BACKUP_STOCK_BOOT_IMAGE=1
     
     	# R11.1 Setings
-    	export FOX_BUILD_TYPE="Testing"
     	export OF_MAINTAINER="Sushrut Gupta"
     	export OF_MAINTAINER_AVATAR="misc/Sushrut1101.png"
-    	export FOX_VERSION="R11.1_0_000"
+    	export FOX_VERSION="R11.1"
     
 	export FOX_ENABLE_APP_MANAGER=1
 	export FOX_USE_BASH_SHELL=1
